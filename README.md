@@ -22,7 +22,7 @@ Before flashing, copy `secrets.h.example` to `secrets.h` and fill in your Wi-Fi 
 
 ## Related
 
-[ESP32 power meter](https://github.com/Curious-Utkarsh/powerMeter)
+[ESP32 power meter](https://github.com/Curious-Utkarsh/esp32-power-meter)
 
 ---
 [Kumar Utkarsh](https://github.com/Curious-Utkarsh) · [LinkedIn](https://www.linkedin.com/in/kumar-utkarsh-124aab227/) · [Portfolio of builds](https://www.mechamindlabs.com/projects)
