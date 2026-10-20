@@ -18,7 +18,7 @@ A dustbin that opens its lid hands-free, separates wet and dry waste, watches fi
 
 `smartDustbin.ino` (main) with one tab per function: `binOpen`, `binClose`, `checkLevel`, `moistDetect`, `gasDetect`, `sendData`, …
 
-Set your Wi-Fi credentials and IFTTT key before flashing.
+Before flashing, copy `secrets.h.example` to `secrets.h` and fill in your Wi-Fi name, password and IFTTT key; `secrets.h` is git-ignored.
 
 ## Related
 

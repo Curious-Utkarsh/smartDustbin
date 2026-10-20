@@ -1,14 +1,15 @@
 #include <ESP32Servo.h>
 #include <WiFi.h>
 #include <HTTPClient.h>
+#include "secrets.h"  // copy secrets.h.example to secrets.h and fill in your values
 
-const char * ssid = "smartDustbin";
-const char * password = "smartDustbin2023";
+const char * ssid = WIFI_SSID;
+const char * password = WIFI_PASSWORD;
 
 String server = "http://maker.ifttt.com";
 String eventName = "smartDustbin";
-String IFTTT_Key = "hGmxvUf-oy1Sdeg4vntBoMPtjIaAvQKibKEcLHCLau8";
-String IFTTTUrl="http://maker.ifttt.com/trigger/smartDustbin/with/key/hGmxvUf-oy1Sdeg4vntBoMPtjIaAvQKibKEcLHCLau8";
+String IFTTT_Key = IFTTT_KEY;
+String IFTTTUrl="http://maker.ifttt.com/trigger/smartDustbin/with/key/" IFTTT_KEY;
 
 #define servoPin 23
 #define moistSensor 19
